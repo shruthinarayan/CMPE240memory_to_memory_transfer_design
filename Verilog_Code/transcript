@@ -1,0 +1,224 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# Loading project prashant
+vsim -gui work.tb_main
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 18:22:34 on Feb 27,2017
+# Loading work.tb_main
+# Loading work.main
+# Loading work.cont
+# Loading work.upcounterthree
+# Loading work.memoryA
+# Loading work.dff
+# Loading work.add
+# Loading work.sub
+# Loading work.comparator
+# Loading work.mux
+# Loading work.upcountertwo
+# Loading work.memB
+add wave -position end  sim:/tb_main/clock
+add wave -position end  sim:/tb_main/Reset
+add wave -position end  sim:/tb_main/DataInA
+run
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/test_main.v(11)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_main
+# Break in Module tb_main at C:/Modeltech_pe_edu_10.4a/examples/test_main.v line 11
+run
+quit -sim
+# Compile of test_cntl.v was successful.
+# Load canceled
+# Compile of test_cntl.v was successful.
+vsim -gui work.tb_controller
+# vsim 
+# Start time: 18:34:02 on Feb 27,2017
+# Loading work.tb_controller
+# Loading work.controller
+add wave -position end  sim:/tb_controller/clock
+add wave -position end  sim:/tb_controller/WEB
+add wave -position end  sim:/tb_controller/WEA
+add wave -position end  sim:/tb_controller/Reset
+add wave -position end  sim:/tb_controller/IncB
+add wave -position end  sim:/tb_controller/IncA
+run
+run
+quit -sim
+# Compile of main.v was successful.
+# Compile of dff.v was successful.
+# Compile of dff_test.v was successful.
+# Compile of mux.v was successful.
+# Compile of test_mux.v was successful.
+# Compile of comp.v was successful.
+# Compile of comp_test.v was successful.
+# Compile of proj1.v was successful.
+# Compile of proj1_test.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controlpath.v was successful.
+# Compile of tb_datapath.v was successful.
+# Compile of add.v was successful.
+# Compile of test_add.v was successful.
+# Compile of sub.v was successful.
+# Compile of test_sub.v was successful.
+# Compile of main.v was successful.
+# Compile of controller.v was successful.
+# Compile of counterthree.v was successful.
+# Compile of test_counterthree.v was successful.
+# Compile of countertwo.v was successful.
+# Compile of test_countertwo.v was successful.
+# Compile of mema.v was successful.
+# Compile of memb.v was successful.
+# Compile of mematest.v was successful.
+# Compile of membtest.v was successful.
+# Compile of test_main.v was successful.
+# Compile of test_cntl.v was successful.
+# 27 compiles, 0 failed with no errors.
+vsim -gui work.tb_controller
+# vsim 
+# Start time: 19:11:34 on Feb 27,2017
+# Loading work.tb_controller
+# Loading work.controller
+add wave -position end  sim:/tb_controller/clock
+add wave -position end  sim:/tb_controller/WEB
+add wave -position end  sim:/tb_controller/WEA
+add wave -position end  sim:/tb_controller/Reset
+add wave -position end  sim:/tb_controller/IncB
+add wave -position end  sim:/tb_controller/IncA
+run
+quit -sim
+# Compile of dff.v was successful.
+# Compile of dff_test.v was successful.
+# Compile of mux.v was successful.
+# Compile of test_mux.v was successful.
+# Compile of comp.v was successful.
+# Compile of comp_test.v was successful.
+# Compile of proj1.v was successful.
+# Compile of proj1_test.v was successful.
+# Compile of datapath.v was successful.
+# Compile of controlpath.v was successful.
+# Compile of tb_datapath.v was successful.
+# Compile of add.v was successful.
+# Compile of test_add.v was successful.
+# Compile of sub.v was successful.
+# Compile of test_sub.v was successful.
+# Compile of main.v was successful.
+# Compile of controller.v was successful.
+# Compile of counterthree.v was successful.
+# Compile of test_counterthree.v was successful.
+# Compile of countertwo.v was successful.
+# Compile of test_countertwo.v was successful.
+# Compile of mema.v was successful.
+# Compile of memb.v was successful.
+# Compile of mematest.v was successful.
+# Compile of membtest.v was successful.
+# Compile of test_main.v was successful.
+# Compile of test_cntl.v was successful.
+# 27 compiles, 0 failed with no errors.
+vsim -gui work.tb_controller
+# vsim 
+# Start time: 19:21:04 on Feb 27,2017
+# Loading work.tb_controller
+# Loading work.controller
+add wave -position end  sim:/tb_controller/clock
+add wave -position end  sim:/tb_controller/WEB
+add wave -position end  sim:/tb_controller/WEA
+add wave -position end  sim:/tb_controller/Reset
+add wave -position end  sim:/tb_controller/IncB
+add wave -position end  sim:/tb_controller/IncA
+run
+quit -sim
+# Load canceled
+# Load canceled
+vsim -gui work.tb_memoryA
+# vsim 
+# Start time: 19:43:02 on Feb 27,2017
+# Loading work.tb_memoryA
+# Loading work.memoryA
+add wave -position end  sim:/tb_memoryA/clock
+add wave -position end  sim:/tb_memoryA/WEA
+add wave -position end  sim:/tb_memoryA/DataInA
+add wave -position end  sim:/tb_memoryA/DOut1
+add wave -position end  sim:/tb_memoryA/AddrA
+run
+quit -sim
+vsim -gui work.tb_main
+# vsim 
+# Start time: 19:49:10 on Feb 27,2017
+# Loading work.tb_main
+# Loading work.main
+# Loading work.cont
+# Loading work.comparator
+# Loading work.dff
+# Loading work.add
+# Loading work.sub
+# Loading work.mux
+# Loading work.memoryA
+# Loading work.memB
+# Loading work.upcountertwo
+# Loading work.upcounterthree
+add wave -position end  sim:/tb_main/clock
+add wave -position end  sim:/tb_main/Reset
+add wave -position end  sim:/tb_main/DataInA
+run
+# ** Note: $stop    : C:/Modeltech_pe_edu_10.4a/examples/test_main.v(11)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_main
+# Break in Module tb_main at C:/Modeltech_pe_edu_10.4a/examples/test_main.v line 11
+quit -sim
+# Compile of dff.v was successful.
+# Compile of dff_test.v was successful.
+# Compile of mux.v was successful.
+# Compile of test_mux.v was successful.
+# Compile of comp.v was successful.
+# Compile of comp_test.v was successful.
+# Compile of add.v was successful.
+# Compile of test_add.v was successful.
+# Compile of sub.v was successful.
+# Compile of test_sub.v was successful.
+# Compile of main.v was successful.
+# Compile of controller.v was successful.
+# Compile of counterthree.v was successful.
+# Compile of test_counterthree.v was successful.
+# Compile of countertwo.v was successful.
+# Compile of test_countertwo.v was successful.
+# Compile of mema.v was successful.
+# Compile of memb.v was successful.
+# Compile of mematest.v was successful.
+# Compile of membtest.v was successful.
+# Compile of test_main.v was successful.
+# Compile of test_cntl.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim -gui work.tb_main
+# vsim 
+# Start time: 19:57:36 on Feb 27,2017
+# Loading work.tb_main
+# Loading work.main
+# Loading work.cont
+# Loading work.comparator
+# Loading work.dff
+# Loading work.add
+# Loading work.sub
+# Loading work.mux
+# Loading work.memoryA
+# Loading work.memB
+# Loading work.upcountertwo
+# Loading work.upcounterthree
+add wave -position end  sim:/tb_main/clock
+add wave -position end  sim:/tb_main/Reset
+add wave -position end  sim:/tb_main/DataInA
+run
+quit -sim

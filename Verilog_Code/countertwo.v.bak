@@ -1,0 +1,25 @@
+
+
+module upcountertwo(input IncA,input Reset,input clock,output reg [1:0]AddrA);
+
+always @(posedge clock)
+begin
+
+if(Reset==1)
+begin
+AddrA<=2'b0;
+end
+
+else
+begin
+if(IncA==1)
+begin
+AddrA<=AddrA+2'b01;
+end
+
+end
+
+
+end
+
+endmodule

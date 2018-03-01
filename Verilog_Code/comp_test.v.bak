@@ -1,0 +1,23 @@
+
+module comp_test;
+
+  reg [7:0]DOut2;
+reg [7:0]DOut1;
+wire Sign;
+    // Instantiate the Unit Under Test (UUT)
+    comparator uut (DOut2,DOut1,Sign);
+
+    initial
+ begin
+        a = 8'b00000000;
+        b = 8'b00000001;
+        #50;
+        a = 8'b00000000;
+        b = 8'b00000000;
+        #50;
+        a = 8'b00000001;
+        b = 8'b00000000;
+        #50;
+    end
+      
+endmodule
